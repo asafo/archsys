@@ -1,0 +1,6 @@
+# checkpointing
+SYSBIND_CHECKPOINT_ROOT_DEV="/dev/sda3"
+SYSBIND_CHECKPOINT_VAR_DEV="/dev/mapper/hv10-var_2"
+
+# binaries
+MOUNT=/usr/bin/mount
