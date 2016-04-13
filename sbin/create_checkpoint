@@ -2,4 +2,9 @@
 
 source /etc/default/sysbind
 
+rootdev=$($MOUNT | grep "on / type" | cut -d' ' -f1)
+vardev=$($MOUNT | grep "on /var type" | cut -d' ' -f1)
+
+printf "root is %s\n" $rootdev
+printf "var is %s\n" $vardev
 
